@@ -4,7 +4,7 @@ self.addEventListener("install", (e) => {
       return cache.addAll([
         "./",
         "./style.css",
-        "./logo240.png",
+        "./logo192.png",
         "./favicon.ico",
         "./pomodoro.js",
         "./index.js",
