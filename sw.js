@@ -10,7 +10,7 @@ self.addEventListener("install", (e) => {
         "./index.js",
         "./manifest.json",
         "./timeToWork.mp3",
-        "./timeforABreak.mp3",
+        "./timeForABreak.mp3",
       ]);
     })
   );
