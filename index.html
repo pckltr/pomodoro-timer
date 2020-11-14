@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2e2d40" />
+    <title>Pomodoro</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="logo240.png" />
+  </head>
+  <body>
+    <div class="main">
+      <output id="counter" class="counter">🙂</output>
+      <output id="output" class="output">30:00</output>
+      <div class="buttons">
+        <input
+          type="button"
+          id="startButton"
+          class="button"
+          value="Start Timer"
+        />
+        <input
+          type="button"
+          id="resetButton"
+          class="button"
+          value="Reset Timer"
+        />
+      </div>
+    </div>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <script src="pomodoro.js"></script>
+  </body>
+</html>
